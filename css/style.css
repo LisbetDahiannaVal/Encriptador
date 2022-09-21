@@ -1,0 +1,199 @@
+/*PORTADA*/
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+  
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contenedor {
+    background-color: rgb(21, 80, 243, .3);
+    width: 75%;
+    height: 650px;
+    margin: 150px auto;
+    border: 5px solid #1550f3;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, .5);
+    background-image: url("../img/icono-plano-de-candado-de-seguridad.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: relative;
+}
+
+.heading {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: #1550f3;
+}
+
+.heading:before {
+    content: "♦ ♦ ♦ "; 
+}
+
+.enlace {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.enlace-texto {
+    color: #1550f3;
+    transition: 0.5s;
+}
+
+.enlace-texto:hover {
+    font-size: 35px;
+    color: #c562dd;
+}
+
+/*PAGINA PRINCIAL*/
+
+.seccion-principal {
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.logo {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.contenido {
+    text-align: center;
+}
+
+.input-texto {
+    width: 70%;
+    height: 300px;
+    margin-top: 20px;
+    background: #E5E5E5;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    border-radius: 5px;
+}
+
+@media (min-width: 992px) {
+    .seccion-principal {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10rem;
+    }  
+    .input-texto {
+        width: 600px;
+    }
+}
+
+.botones {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+@media (min-width: 992px) {
+    .botones {
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+    }
+}
+
+.encriptar {
+    background-color: #0A3871;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 250px;
+    border-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, .6);
+    transition: .5s;  
+}
+
+.desencriptar {
+    background-color: #6982c9;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 250px;
+    border-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, .6);
+    transition: .5s;
+}
+
+.encriptar:hover, .desencriptar:hover {
+    cursor: pointer;
+    height: 60px;
+    width: 260px;
+}
+
+.mensaje {
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, .6);
+    border: none;
+    border-radius: 10px;
+    height: 600px;
+    width: 70%;
+    background-image: url("../img/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+@media (min-width: 992px) {
+    .mensaje {
+        height: 600px;
+        width: 360px;
+        background-position: 100%;
+    }
+}
+
+.copiar {
+    display: grid;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #0A3871;
+    height: 50px;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, .6);
+    color: #FFFFFF;
+    transition: .5s;
+}
+
+.copiar:hover {
+    cursor: pointer;
+    height: 55px;
+    width: 210px;
+}
+
+.footer {
+    background-color: #6982c9;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    font-weight: 400;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+
