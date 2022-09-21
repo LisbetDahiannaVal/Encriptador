@@ -1,5 +1,4 @@
-/*PORTADA*/
-
+/*Estilos encriptador*/
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -17,49 +16,6 @@ body {
     font-size: 30px;
     font-weight: 700;
 }
-
-.contenedor {
-    background-color: rgb(21, 80, 243, .3);
-    width: 75%;
-    height: 650px;
-    margin: 150px auto;
-    border: 5px solid #1550f3;
-    border-radius: 15px;
-    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, .5);
-    background-image: url("../img/icono-plano-de-candado-de-seguridad.png");
-    background-repeat: no-repeat;
-    background-position: 50%;
-    position: relative;
-}
-
-.heading {
-    position: absolute;
-    top: 20px;
-    left: 30px;
-    color: #1550f3;
-}
-
-.heading:before {
-    content: "♦ ♦ ♦ "; 
-}
-
-.enlace {
-    position: absolute;
-    bottom: 20px;
-    left: 30px;
-}
-
-.enlace-texto {
-    color: #1550f3;
-    transition: 0.5s;
-}
-
-.enlace-texto:hover {
-    font-size: 35px;
-    color: #c562dd;
-}
-
-/*PAGINA PRINCIAL*/
 
 .seccion-principal {
     max-width: 120rem;
